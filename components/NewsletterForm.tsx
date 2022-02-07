@@ -149,7 +149,7 @@ const NewsletterForm = ({ status, message, onValidated }: Props) => {
                   <div
                     className="decode"
                     dangerouslySetInnerHTML={{
-                      __html: error || getMessage(message),
+                      __html: error || getMessage(message) as string,
                     }}
                   ></div>
                 </p>
