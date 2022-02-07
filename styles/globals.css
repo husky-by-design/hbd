@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.decode a {
+  @apply underline hover:no-underline;
+}

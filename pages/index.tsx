@@ -1,13 +1,13 @@
 import Header from "../components/header";
 import Hero from "../components/hero";
-import NewsletterBanner from '../components/newsletter-banner'
+import NewsLetterSubscribe from "../components/NewsletterSubscribe";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
-      <NewsletterBanner/>
+      <NewsLetterSubscribe />
     </>
   );
 }
