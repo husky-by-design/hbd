@@ -1,13 +1,10 @@
-import Image from "next/image";
-import hbdText from "../public/hbd-logo.svg";
+// import Image from "next/image";
+// import hbdText from "../public/hbd-logo.svg";
 
 export default function Hero() {
   return (
     <div className="bg-white">
-      <div className="mx-auto w-80 my-6">
-        <Image layout="intrinsic" src={hbdText} />
-      </div>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto pt-7">
         <div className="text-center">
           <h2 className="text-base font-semibold text-purple-600 tracking-wide uppercase">
             Creative Solutions
